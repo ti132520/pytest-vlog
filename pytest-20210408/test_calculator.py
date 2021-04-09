@@ -7,14 +7,21 @@ from Calculator import Calculator
 class TestCal:
     @staticmethod
     def setup_class():
-        print('开始计算')
+        print('开始测试')
 
     @staticmethod
     def teardown_class():
-        print('计算结束')
+        print('测试结束')
 
+    # 方法执行前
     def setup(self):
+        print('计算开始')
         self.cal = Calculator()
+
+    # 方法执行后
+    @staticmethod
+    def teardown():
+        print('计算结束')
 
     # pytest
     @pytest.mark.test_add
