@@ -1,0 +1,34 @@
+@startuml
+title 企业微信测试时序图
+
+participant 登录页面 as login
+
+participant 企业微信主页面 as main
+
+participant 通讯录页面 as contact
+
+participant 添加成员页面 as add_member
+
+participant 添加部门页面 as add_department
+
+participant 导入通讯录页面 as import_book
+
+login -> main: 通过手机扫码登陆
+
+login -> main: 通过 cookies 绕过
+
+main -> contact: 点击通讯录
+
+contact -> contact: 获取通讯录列表
+
+main -> add_member: 点击"添加成员"
+
+contact -> add_member: 点击"添加成员"
+
+main -> import_book: 点击"导入通讯录"
+
+contact -> add_department: 点击"+"再点击"添加子部门"
+
+contact -> add_department: 点击现有部门右侧图标 再点击"添加子部门"
+
+@enduml
