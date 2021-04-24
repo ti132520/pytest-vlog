@@ -1,22 +1,21 @@
 @startuml
-title 测试企业微信 添加成员
-
+title 测试企业微信 添加成员 AND 删除成员
 participant 主页面 as main
-
 participant 通讯录 as contact
-
 participant 添加成员 as add_member
-
 participant 手动输入添加成员页面 as add_member_of_sd
-
+participant 成员信息页面 as member_info
+participant 成员信息更多页面 as member_info_more
+participant 成员信息编辑页面 as edit_member
 autonumber
 
-main -> contact : 点击通讯录按钮
-
-contact -> add_member : 滑动查找添加成员按钮
-
-add_member -> add_member_of_sd : 点击手动添加
-
+main -> contact : 点击【通讯录】按钮
+contact -> add_member : 滑动查找【添加成员】按钮
+add_member -> add_member_of_sd : 点击【手动添加】
 add_member_of_sd -> contact : 查找是否添加成员成功
+contact -> member_info : 点击想要删除的【成员姓名】
+member_info ->member_info_more : 点击【右上角3个点】
+member_info_more -> edit_member : 点击【编辑成员】
+edit_member -> contact : 点击【删除成员】然后点击【确定】
 
 @enduml
