@@ -1,582 +1,337 @@
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
-Sat, 24 Apr 2021 23:29:45 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:45 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "android", "appium:deviceName": "1", "appium:appPackage": "com.tencent.wework", "appium:appActivity": ".launch.WwMainActivity", "appium:noReset": true, "appium:settings[waitForIdleTimeout]": 0, "appium:skipDeviceInitialization": true, "appium:dontStopAppOnReset": true}]}, "desiredCapabilities": {"platformName": "android", "deviceName": "1", "appPackage": "com.tencent.wework", "appActivity": ".launch.WwMainActivity", "noReset": true, "settings[waitForIdleTimeout]": 0, "skipDeviceInitialization": true, "dontStopAppOnReset": true}}
-Sat, 24 Apr 2021 23:29:45 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:4723
-Sat, 24 Apr 2021 23:29:58 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 954
-Sat, 24 Apr 2021 23:29:58 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:29:58 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts {"implicit": 5000}
-Sat, 24 Apr 2021 23:29:58 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:29:58 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:29:58 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:29:58 test_work_wechat.py[line:33] INFO 测试添加成员庄秀英开始
-Sat, 24 Apr 2021 23:29:58 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sat, 24 Apr 2021 23:30:01 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:01 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:01 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/61b066fd-a74d-44bb-b972-e21cea863df9/click {"id": "61b066fd-a74d-44bb-b972-e21cea863df9"}
-Sat, 24 Apr 2021 23:30:02 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/61b066fd-a74d-44bb-b972-e21cea863df9/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:02 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:02 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:30:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 404 420
-Sat, 24 Apr 2021 23:30:07 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:07 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect {}
-Sat, 24 Apr 2021 23:30:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect HTTP/1.1" 200 49
-Sat, 24 Apr 2021 23:30:07 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:07 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform {"actions": [{"action": "press", "options": {"x": 468.0, "y": 1331.2}}, {"action": "wait", "options": {"ms": 1000}}, {"action": "moveTo", "options": {"x": 468.0, "y": 499.2}}, {"action": "release", "options": {}}]}
-Sat, 24 Apr 2021 23:30:08 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:08 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:08 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:30:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:09 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:09 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts {"implicit": 5000}
-Sat, 24 Apr 2021 23:30:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:09 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:09 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/6dcb7fc2-2335-4513-8440-303d7bb621d4/click {"id": "6dcb7fc2-2335-4513-8440-303d7bb621d4"}
-Sat, 24 Apr 2021 23:30:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/6dcb7fc2-2335-4513-8440-303d7bb621d4/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:09 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:09 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text, \"\u624b\u52a8\u8f93\u5165\u6dfb\u52a0\")]"}
-Sat, 24 Apr 2021 23:30:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:10 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/13f70646-d259-4f0f-8c19-8118f04de132/click {"id": "13f70646-d259-4f0f-8c19-8118f04de132"}
-Sat, 24 Apr 2021 23:30:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/13f70646-d259-4f0f-8c19-8118f04de132/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:10 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,'\u59d3\u540d')]/../android.widget.EditText"}
-Sat, 24 Apr 2021 23:30:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:11 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:11 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/8eade918-ccdc-4104-91e1-ef46fab080e8/value {"text": "\u5e84\u79c0\u82f1", "value": ["\u5e84", "\u79c0", "\u82f1"], "id": "8eade918-ccdc-4104-91e1-ef46fab080e8"}
-Sat, 24 Apr 2021 23:30:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/8eade918-ccdc-4104-91e1-ef46fab080e8/value HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:11 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:11 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,'\u624b\u673a')]/..//android.widget.EditText"}
-Sat, 24 Apr 2021 23:30:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:11 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:11 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/efc8a76c-7f7c-4744-b7d0-c0f468fcf424/value {"text": "13272576537", "value": ["1", "3", "2", "7", "2", "5", "7", "6", "5", "3", "7"], "id": "efc8a76c-7f7c-4744-b7d0-c0f468fcf424"}
-Sat, 24 Apr 2021 23:30:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/efc8a76c-7f7c-4744-b7d0-c0f468fcf424/value HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:11 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:11 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,'\u4fdd\u5b58')]"}
-Sat, 24 Apr 2021 23:30:12 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:12 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:12 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/a73c0135-d590-481a-bbb5-d994a000094a/click {"id": "a73c0135-d590-481a-bbb5-d994a000094a"}
-Sat, 24 Apr 2021 23:30:12 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/a73c0135-d590-481a-bbb5-d994a000094a/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:12 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:12 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text, \"\u6dfb\u52a0\u6210\u529f\")]"}
-Sat, 24 Apr 2021 23:30:13 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:13 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:13 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close {}
-Sat, 24 Apr 2021 23:30:14 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:14 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:14 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch {}
-Sat, 24 Apr 2021 23:30:25 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:25 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:25 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:25 test_work_wechat.py[line:33] INFO 测试添加成员李秀芳开始
-Sat, 24 Apr 2021 23:30:25 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sat, 24 Apr 2021 23:30:28 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:28 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:28 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/c520eb6f-e4f1-4619-bd24-f102b291f651/click {"id": "c520eb6f-e4f1-4619-bd24-f102b291f651"}
-Sat, 24 Apr 2021 23:30:28 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/c520eb6f-e4f1-4619-bd24-f102b291f651/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:28 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:28 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:30:33 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 404 420
-Sat, 24 Apr 2021 23:30:33 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:33 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect {}
-Sat, 24 Apr 2021 23:30:33 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect HTTP/1.1" 200 49
-Sat, 24 Apr 2021 23:30:33 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:33 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform {"actions": [{"action": "press", "options": {"x": 468.0, "y": 1331.2}}, {"action": "wait", "options": {"ms": 1000}}, {"action": "moveTo", "options": {"x": 468.0, "y": 499.2}}, {"action": "release", "options": {}}]}
-Sat, 24 Apr 2021 23:30:36 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:36 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:36 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:30:41 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 404 420
-Sat, 24 Apr 2021 23:30:41 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:41 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect {}
-Sat, 24 Apr 2021 23:30:41 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect HTTP/1.1" 200 49
-Sat, 24 Apr 2021 23:30:41 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:41 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform {"actions": [{"action": "press", "options": {"x": 468.0, "y": 1331.2}}, {"action": "wait", "options": {"ms": 1000}}, {"action": "moveTo", "options": {"x": 468.0, "y": 499.2}}, {"action": "release", "options": {}}]}
-Sat, 24 Apr 2021 23:30:42 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:42 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:42 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:30:42 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:42 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:42 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts {"implicit": 5000}
-Sat, 24 Apr 2021 23:30:42 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:42 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:42 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/3c02bb1c-7f65-4501-83cd-4467f6b05a43/click {"id": "3c02bb1c-7f65-4501-83cd-4467f6b05a43"}
-Sat, 24 Apr 2021 23:30:42 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/3c02bb1c-7f65-4501-83cd-4467f6b05a43/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:42 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:42 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text, \"\u624b\u52a8\u8f93\u5165\u6dfb\u52a0\")]"}
-Sat, 24 Apr 2021 23:30:43 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:43 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:43 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/ba2cead5-78c1-41b0-bd35-ac97f4ea38f2/click {"id": "ba2cead5-78c1-41b0-bd35-ac97f4ea38f2"}
-Sat, 24 Apr 2021 23:30:43 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/ba2cead5-78c1-41b0-bd35-ac97f4ea38f2/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:43 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:43 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,'\u59d3\u540d')]/../android.widget.EditText"}
-Sat, 24 Apr 2021 23:30:44 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:44 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:44 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/454b8652-45d2-4e41-8c38-0edfcd9327b5/value {"text": "\u674e\u79c0\u82b3", "value": ["\u674e", "\u79c0", "\u82b3"], "id": "454b8652-45d2-4e41-8c38-0edfcd9327b5"}
-Sat, 24 Apr 2021 23:30:44 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/454b8652-45d2-4e41-8c38-0edfcd9327b5/value HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:44 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:44 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,'\u624b\u673a')]/..//android.widget.EditText"}
-Sat, 24 Apr 2021 23:30:44 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:44 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:44 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/a3151077-ed34-43ca-b762-a415e1d501c5/value {"text": "18976899409", "value": ["1", "8", "9", "7", "6", "8", "9", "9", "4", "0", "9"], "id": "a3151077-ed34-43ca-b762-a415e1d501c5"}
-Sat, 24 Apr 2021 23:30:44 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/a3151077-ed34-43ca-b762-a415e1d501c5/value HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:44 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:44 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,'\u4fdd\u5b58')]"}
-Sat, 24 Apr 2021 23:30:45 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:45 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:45 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/b01cec88-c73c-4a53-bcd3-9bd2081522f3/click {"id": "b01cec88-c73c-4a53-bcd3-9bd2081522f3"}
-Sat, 24 Apr 2021 23:30:45 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/b01cec88-c73c-4a53-bcd3-9bd2081522f3/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:45 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:45 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text, \"\u6dfb\u52a0\u6210\u529f\")]"}
-Sat, 24 Apr 2021 23:30:46 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:30:46 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:46 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close {}
-Sat, 24 Apr 2021 23:30:47 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:47 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:47 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch {}
-Sat, 24 Apr 2021 23:30:58 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:30:58 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sat, 24 Apr 2021 23:30:58 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sat, 24 Apr 2021 23:30:58 test_work_wechat.py[line:33] INFO 测试添加成员梁旭开始
-Sat, 24 Apr 2021 23:30:58 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sat, 24 Apr 2021 23:31:01 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:01 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:01 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/280d057a-1f71-4c92-969a-42e9c514e127/click {"id": "280d057a-1f71-4c92-969a-42e9c514e127"}
-Sat, 24 Apr 2021 23:31:02 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/280d057a-1f71-4c92-969a-42e9c514e127/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:02 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:02 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:31:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 404 420
-Sat, 24 Apr 2021 23:31:07 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:07 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect {}
-Sat, 24 Apr 2021 23:31:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect HTTP/1.1" 200 49
-Sat, 24 Apr 2021 23:31:07 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:07 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform {"actions": [{"action": "press", "options": {"x": 468.0, "y": 1331.2}}, {"action": "wait", "options": {"ms": 1000}}, {"action": "moveTo", "options": {"x": 468.0, "y": 499.2}}, {"action": "release", "options": {}}]}
-Sat, 24 Apr 2021 23:31:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:09 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:09 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:31:14 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 404 420
-Sat, 24 Apr 2021 23:31:14 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:14 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect {}
-Sat, 24 Apr 2021 23:31:14 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect HTTP/1.1" 200 49
-Sat, 24 Apr 2021 23:31:14 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:14 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform {"actions": [{"action": "press", "options": {"x": 468.0, "y": 1331.2}}, {"action": "wait", "options": {"ms": 1000}}, {"action": "moveTo", "options": {"x": 468.0, "y": 499.2}}, {"action": "release", "options": {}}]}
-Sat, 24 Apr 2021 23:31:16 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:16 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:16 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:31:16 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:16 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:16 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts {"implicit": 5000}
-Sat, 24 Apr 2021 23:31:16 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:16 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:16 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/66aa5fa2-1677-4d79-bbd1-affee50e3ce4/click {"id": "66aa5fa2-1677-4d79-bbd1-affee50e3ce4"}
-Sat, 24 Apr 2021 23:31:16 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/66aa5fa2-1677-4d79-bbd1-affee50e3ce4/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:16 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:16 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text, \"\u624b\u52a8\u8f93\u5165\u6dfb\u52a0\")]"}
-Sat, 24 Apr 2021 23:31:18 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:18 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:18 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/8fc58cf1-066f-4e69-a9d9-a36c4acf9223/click {"id": "8fc58cf1-066f-4e69-a9d9-a36c4acf9223"}
-Sat, 24 Apr 2021 23:31:18 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/8fc58cf1-066f-4e69-a9d9-a36c4acf9223/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:18 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:18 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,'\u59d3\u540d')]/../android.widget.EditText"}
-Sat, 24 Apr 2021 23:31:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/c82eb202-628d-44b7-b0d8-1eb51cb9aaa3/value {"text": "\u6881\u65ed", "value": ["\u6881", "\u65ed"], "id": "c82eb202-628d-44b7-b0d8-1eb51cb9aaa3"}
-Sat, 24 Apr 2021 23:31:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/c82eb202-628d-44b7-b0d8-1eb51cb9aaa3/value HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,'\u624b\u673a')]/..//android.widget.EditText"}
-Sat, 24 Apr 2021 23:31:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/73c67d45-c51e-4646-9d0f-3fed8d63ee27/value {"text": "14577616574", "value": ["1", "4", "5", "7", "7", "6", "1", "6", "5", "7", "4"], "id": "73c67d45-c51e-4646-9d0f-3fed8d63ee27"}
-Sat, 24 Apr 2021 23:31:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/73c67d45-c51e-4646-9d0f-3fed8d63ee27/value HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,'\u4fdd\u5b58')]"}
-Sat, 24 Apr 2021 23:31:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/5ab51f5d-a35b-4435-9210-f63e0afa2d60/click {"id": "5ab51f5d-a35b-4435-9210-f63e0afa2d60"}
-Sat, 24 Apr 2021 23:31:19 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/5ab51f5d-a35b-4435-9210-f63e0afa2d60/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:19 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text, \"\u6dfb\u52a0\u6210\u529f\")]"}
-Sat, 24 Apr 2021 23:31:21 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:21 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:21 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close {}
-Sat, 24 Apr 2021 23:31:22 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:22 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:22 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch {}
-Sat, 24 Apr 2021 23:31:32 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:32 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:32 test_work_wechat.py[line:44] INFO 测试删除成员王敏开始
-Sat, 24 Apr 2021 23:31:32 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sat, 24 Apr 2021 23:31:35 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:35 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:35 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/252b635a-aa0f-4c2a-a927-6cb0e45313e6/click {"id": "252b635a-aa0f-4c2a-a927-6cb0e45313e6"}
-Sat, 24 Apr 2021 23:31:35 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/252b635a-aa0f-4c2a-a927-6cb0e45313e6/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:35 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:35 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u738b\u654f\")]"}
-Sat, 24 Apr 2021 23:31:41 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 404 420
-Sat, 24 Apr 2021 23:31:41 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:41 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect {}
-Sat, 24 Apr 2021 23:31:41 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/window/rect HTTP/1.1" 200 49
-Sat, 24 Apr 2021 23:31:41 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:41 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform {"actions": [{"action": "press", "options": {"x": 468.0, "y": 1331.2}}, {"action": "wait", "options": {"ms": 1000}}, {"action": "moveTo", "options": {"x": 468.0, "y": 499.2}}, {"action": "release", "options": {}}]}
-Sat, 24 Apr 2021 23:31:42 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/touch/perform HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:42 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:42 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u738b\u654f\")]"}
-Sat, 24 Apr 2021 23:31:42 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:42 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:42 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts {"implicit": 5000}
-Sat, 24 Apr 2021 23:31:42 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:42 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:42 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/e5eb08e0-2a05-4c27-a4b5-a8b16675e437/click {"id": "e5eb08e0-2a05-4c27-a4b5-a8b16675e437"}
-Sat, 24 Apr 2021 23:31:43 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/e5eb08e0-2a05-4c27-a4b5-a8b16675e437/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:43 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:43 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text, \"\u4e2a\u4eba\u4fe1\u606f\")]/../../../../../*[@index=1]"}
-Sat, 24 Apr 2021 23:31:45 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:45 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:45 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/a1beb129-7bcb-41e5-8e08-fd47c3200d03/click {"id": "a1beb129-7bcb-41e5-8e08-fd47c3200d03"}
-Sat, 24 Apr 2021 23:31:45 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/a1beb129-7bcb-41e5-8e08-fd47c3200d03/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:45 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:45 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[@text=\"\u7f16\u8f91\u6210\u5458\"]"}
-Sat, 24 Apr 2021 23:31:46 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:46 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:46 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/b686f3e6-1002-4c52-9ef4-281ae8f4c213/click {"id": "b686f3e6-1002-4c52-9ef4-281ae8f4c213"}
-Sat, 24 Apr 2021 23:31:46 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/b686f3e6-1002-4c52-9ef4-281ae8f4c213/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:46 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:46 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u5220\u9664\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:31:47 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:47 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:47 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts {"implicit": 5000}
-Sat, 24 Apr 2021 23:31:47 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:47 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:47 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/0aef443e-1f70-4a45-9e4a-f1ea3e93998b/click {"id": "0aef443e-1f70-4a45-9e4a-f1ea3e93998b"}
-Sat, 24 Apr 2021 23:31:47 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/0aef443e-1f70-4a45-9e4a-f1ea3e93998b/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:47 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:47 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[@text=\"\u786e\u5b9a\"]"}
-Sat, 24 Apr 2021 23:31:48 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:31:48 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:48 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/0e43cd95-4f7a-403c-8aa1-42dce527f6a9/click {"id": "0e43cd95-4f7a-403c-8aa1-42dce527f6a9"}
-Sat, 24 Apr 2021 23:31:48 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/0e43cd95-4f7a-403c-8aa1-42dce527f6a9/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:48 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:48 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close {}
-Sat, 24 Apr 2021 23:31:50 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:31:50 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:31:50 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch {}
-Sat, 24 Apr 2021 23:32:00 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:00 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:00 test_work_wechat.py[line:44] INFO 测试删除成员马磊开始
-Sat, 24 Apr 2021 23:32:00 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sat, 24 Apr 2021 23:32:03 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:32:03 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:03 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/a5688a22-2a15-4d6e-85dc-6baec89f482b/click {"id": "a5688a22-2a15-4d6e-85dc-6baec89f482b"}
-Sat, 24 Apr 2021 23:32:03 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/a5688a22-2a15-4d6e-85dc-6baec89f482b/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:03 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:03 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u9a6c\u78ca\")]"}
-Sat, 24 Apr 2021 23:32:04 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:32:04 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:04 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts {"implicit": 5000}
-Sat, 24 Apr 2021 23:32:04 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:04 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:04 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/40ab0bcc-09e5-45b8-83c0-36177fc68ad9/click {"id": "40ab0bcc-09e5-45b8-83c0-36177fc68ad9"}
-Sat, 24 Apr 2021 23:32:04 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/40ab0bcc-09e5-45b8-83c0-36177fc68ad9/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:04 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:04 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text, \"\u4e2a\u4eba\u4fe1\u606f\")]/../../../../../*[@index=1]"}
-Sat, 24 Apr 2021 23:32:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:32:07 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:07 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/486e5a17-da7f-4eab-8899-3e6825344005/click {"id": "486e5a17-da7f-4eab-8899-3e6825344005"}
-Sat, 24 Apr 2021 23:32:07 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/486e5a17-da7f-4eab-8899-3e6825344005/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:07 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:07 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[@text=\"\u7f16\u8f91\u6210\u5458\"]"}
-Sat, 24 Apr 2021 23:32:08 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:32:08 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:08 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/5480d1a1-1636-4393-b2d0-e828d7d1411a/click {"id": "5480d1a1-1636-4393-b2d0-e828d7d1411a"}
-Sat, 24 Apr 2021 23:32:08 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/5480d1a1-1636-4393-b2d0-e828d7d1411a/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:08 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:08 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[contains(@text,\"\u5220\u9664\u6210\u5458\")]"}
-Sat, 24 Apr 2021 23:32:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:32:09 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:09 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts {"implicit": 5000}
-Sat, 24 Apr 2021 23:32:09 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/timeouts HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:09 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:09 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/1e06ab79-9398-46d2-b8fb-6de93328b61d/click {"id": "1e06ab79-9398-46d2-b8fb-6de93328b61d"}
-Sat, 24 Apr 2021 23:32:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/1e06ab79-9398-46d2-b8fb-6de93328b61d/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:10 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element {"using": "xpath", "value": "//*[@text=\"\u786e\u5b9a\"]"}
-Sat, 24 Apr 2021 23:32:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element HTTP/1.1" 200 137
-Sat, 24 Apr 2021 23:32:10 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/2264369f-8646-4bd9-90df-8c0ae88c8402/click {"id": "2264369f-8646-4bd9-90df-8c0ae88c8402"}
-Sat, 24 Apr 2021 23:32:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/element/2264369f-8646-4bd9-90df-8c0ae88c8402/click HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:10 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close {}
-Sat, 24 Apr 2021 23:32:12 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/close HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:12 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:12 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch {}
-Sat, 24 Apr 2021 23:32:23 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8/appium/app/launch HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:23 remote_connection.py[line:440] DEBUG Finished Request
-Sat, 24 Apr 2021 23:32:23 remote_connection.py[line:388] DEBUG DELETE http://127.0.0.1:4723/wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8 {}
-Sat, 24 Apr 2021 23:32:23 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "DELETE /wd/hub/session/69bd32fd-0915-48ad-87c6-12220dc09db8 HTTP/1.1" 200 14
-Sat, 24 Apr 2021 23:32:23 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:02:49 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "android", "appium:deviceName": "1", "appium:appPackage": "com.tencent.wework", "appium:appActivity": "com.tencent.wework.launch.LaunchSplashActivity", "appium:noReset": true, "appium:settings[waitForIdleTimeout]": 0, "appium:skipDeviceInitialization": true, "appium:dontStopAppOnReset": true}]}, "desiredCapabilities": {"platformName": "android", "deviceName": "1", "appPackage": "com.tencent.wework", "appActivity": "com.tencent.wework.launch.LaunchSplashActivity", "noReset": true, "settings[waitForIdleTimeout]": 0, "skipDeviceInitialization": true, "dontStopAppOnReset": true}}
+Sun, 25 Apr 2021 18:02:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:4723
+Sun, 25 Apr 2021 18:03:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1002
+Sun, 25 Apr 2021 18:03:10 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/timeouts {"implicit": 5000}
+Sun, 25 Apr 2021 18:03:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/timeouts HTTP/1.1" 200 14
+Sun, 25 Apr 2021 18:03:10 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:10 test_work_wechat.py[line:33] INFO 测试添加成员洪桂英开始
+Sun, 25 Apr 2021 18:03:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
+Sun, 25 Apr 2021 18:03:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 200 137
+Sun, 25 Apr 2021 18:03:11 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:11 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element/3294abda-4e38-419e-bd10-dee298b497a9/click {"id": "3294abda-4e38-419e-bd10-dee298b497a9"}
+Sun, 25 Apr 2021 18:03:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element/3294abda-4e38-419e-bd10-dee298b497a9/click HTTP/1.1" 200 14
+Sun, 25 Apr 2021 18:03:11 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:11 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
+Sun, 25 Apr 2021 18:03:17 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 404 420
+Sun, 25 Apr 2021 18:03:17 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:17 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/window/rect {}
+Sun, 25 Apr 2021 18:03:18 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/window/rect HTTP/1.1" 200 49
+Sun, 25 Apr 2021 18:03:18 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:18 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/touch/perform {"actions": [{"action": "press", "options": {"x": 468.0, "y": 1331.2}}, {"action": "wait", "options": {"ms": 1000}}, {"action": "moveTo", "options": {"x": 468.0, "y": 499.2}}, {"action": "release", "options": {}}]}
+Sun, 25 Apr 2021 18:03:20 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/touch/perform HTTP/1.1" 200 14
+Sun, 25 Apr 2021 18:03:20 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:20 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
+Sun, 25 Apr 2021 18:03:21 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
+Sun, 25 Apr 2021 18:03:21 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:21 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
+Sun, 25 Apr 2021 18:03:23 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 200 14
+Sun, 25 Apr 2021 18:03:23 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:23 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/launch {}
+Sun, 25 Apr 2021 18:03:36 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/launch HTTP/1.1" 200 14
+Sun, 25 Apr 2021 18:03:36 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:36 test_work_wechat.py[line:33] INFO 测试添加成员徐金凤开始
+Sun, 25 Apr 2021 18:03:36 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
+Sun, 25 Apr 2021 18:03:37 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
+Sun, 25 Apr 2021 18:03:37 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:37 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
+Sun, 25 Apr 2021 18:03:42 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 200 14
+Sun, 25 Apr 2021 18:03:42 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:42 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/launch {}
+Sun, 25 Apr 2021 18:03:48 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/launch HTTP/1.1" 200 14
+Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
+Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+Sun, 25 Apr 2021 18:03:48 test_work_wechat.py[line:33] INFO 测试添加成员张建国开始
+Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
+Sun, 25 Apr 2021 18:03:48 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
+Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
+Sun, 25 Apr 2021 18:03:48 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 500 1053
+Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:49 test_work_wechat.py[line:44] INFO 测试删除成员王敏开始
+Sun, 25 Apr 2021 18:03:49 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
+Sun, 25 Apr 2021 18:03:52 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
+Sun, 25 Apr 2021 18:03:52 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:52 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
+Sun, 25 Apr 2021 18:03:53 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 500 1053
+Sun, 25 Apr 2021 18:03:53 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:53 test_work_wechat.py[line:44] INFO 测试删除成员马磊开始
+Sun, 25 Apr 2021 18:03:53 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
+Sun, 25 Apr 2021 18:03:53 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
+Sun, 25 Apr 2021 18:03:53 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:54 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
+Sun, 25 Apr 2021 18:03:54 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 500 1053
+Sun, 25 Apr 2021 18:03:54 remote_connection.py[line:440] DEBUG Finished Request
+Sun, 25 Apr 2021 18:03:54 remote_connection.py[line:388] DEBUG DELETE http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297 {}

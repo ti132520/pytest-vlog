@@ -14,9 +14,10 @@ class App(BasePage):
         if driver:
             self.driver = driver
         else:
+            # com.tencent.wework.launch.LaunchSplashActivity 模拟器真机都可以
             caps = {
                 "platformName": "android", "deviceName": "1", "appPackage": "com.tencent.wework",
-                "appActivity": ".launch.WwMainActivity", "noReset": True,
+                "appActivity": "com.tencent.wework.launch.LaunchSplashActivity", "noReset": True,
                 "settings[waitForIdleTimeout]": 0, "skipDeviceInitialization": True, "dontStopAppOnReset": True
             }
             self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
