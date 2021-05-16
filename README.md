@@ -15,6 +15,9 @@
 ### 第六次（appium）地址：[github点击这里](https://github.com/ti132520/pytest-vlog/tree/main/appium-20210424) [gitlab点击这里](https://gitlab.stuq.ceshiren.com/1665027031/pytest-vlog/-/tree/main/appium-20210424) [gitee点击这里](https://gitee.com/ti132520/pytest-vlog/tree/main/appium-20210424)
 
 
+### 第七次（mitmproxy）地址：[github点击这里](https://github.com/ti132520/pytest-vlog/tree/main/mitmproxy-20210516) [gitlab点击这里](https://gitlab.stuq.ceshiren.com/1665027031/pytest-vlog/-/tree/main/mitmproxy-20210516) [gitee点击这里](https://gitee.com/ti132520/pytest-vlog/tree/main/mitmproxy-20210516)
+
+
 
 #### *项目所有pip 依赖包都在 pip_install_list.txt 中，使用命令 pip install -r pip_install_list.txt 即可快速安装
 
