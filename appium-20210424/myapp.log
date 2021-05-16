@@ -1,337 +1,41 @@
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
-Sun, 25 Apr 2021 18:02:49 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
-Sun, 25 Apr 2021 18:02:49 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "android", "appium:deviceName": "1", "appium:appPackage": "com.tencent.wework", "appium:appActivity": "com.tencent.wework.launch.LaunchSplashActivity", "appium:noReset": true, "appium:settings[waitForIdleTimeout]": 0, "appium:skipDeviceInitialization": true, "appium:dontStopAppOnReset": true}]}, "desiredCapabilities": {"platformName": "android", "deviceName": "1", "appPackage": "com.tencent.wework", "appActivity": "com.tencent.wework.launch.LaunchSplashActivity", "noReset": true, "settings[waitForIdleTimeout]": 0, "skipDeviceInitialization": true, "dontStopAppOnReset": true}}
-Sun, 25 Apr 2021 18:02:49 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:4723
-Sun, 25 Apr 2021 18:03:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1002
-Sun, 25 Apr 2021 18:03:10 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/timeouts {"implicit": 5000}
-Sun, 25 Apr 2021 18:03:10 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/timeouts HTTP/1.1" 200 14
-Sun, 25 Apr 2021 18:03:10 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:10 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:10 test_work_wechat.py[line:33] INFO 测试添加成员洪桂英开始
-Sun, 25 Apr 2021 18:03:10 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sun, 25 Apr 2021 18:03:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 200 137
-Sun, 25 Apr 2021 18:03:11 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:11 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element/3294abda-4e38-419e-bd10-dee298b497a9/click {"id": "3294abda-4e38-419e-bd10-dee298b497a9"}
-Sun, 25 Apr 2021 18:03:11 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element/3294abda-4e38-419e-bd10-dee298b497a9/click HTTP/1.1" 200 14
-Sun, 25 Apr 2021 18:03:11 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:11 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sun, 25 Apr 2021 18:03:17 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 404 420
-Sun, 25 Apr 2021 18:03:17 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:17 remote_connection.py[line:388] DEBUG GET http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/window/rect {}
-Sun, 25 Apr 2021 18:03:18 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "GET /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/window/rect HTTP/1.1" 200 49
-Sun, 25 Apr 2021 18:03:18 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:18 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/touch/perform {"actions": [{"action": "press", "options": {"x": 468.0, "y": 1331.2}}, {"action": "wait", "options": {"ms": 1000}}, {"action": "moveTo", "options": {"x": 468.0, "y": 499.2}}, {"action": "release", "options": {}}]}
-Sun, 25 Apr 2021 18:03:20 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/touch/perform HTTP/1.1" 200 14
-Sun, 25 Apr 2021 18:03:20 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:20 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[contains(@text,\"\u6dfb\u52a0\u6210\u5458\")]"}
-Sun, 25 Apr 2021 18:03:21 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
-Sun, 25 Apr 2021 18:03:21 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:21 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
-Sun, 25 Apr 2021 18:03:23 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 200 14
-Sun, 25 Apr 2021 18:03:23 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:23 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/launch {}
-Sun, 25 Apr 2021 18:03:36 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/launch HTTP/1.1" 200 14
-Sun, 25 Apr 2021 18:03:36 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:36 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:36 test_work_wechat.py[line:33] INFO 测试添加成员徐金凤开始
-Sun, 25 Apr 2021 18:03:36 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sun, 25 Apr 2021 18:03:37 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
-Sun, 25 Apr 2021 18:03:37 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:37 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
-Sun, 25 Apr 2021 18:03:42 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 200 14
-Sun, 25 Apr 2021 18:03:42 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:42 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/launch {}
-Sun, 25 Apr 2021 18:03:48 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/launch HTTP/1.1" 200 14
-Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.address`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.automotive`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.bank`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.barcode`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.color`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.company`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.currency`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.date_time`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.geo`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.internet`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.job`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.lorem`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.misc`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:101] DEBUG Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.person`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:94] DEBUG Looking for locale `zh_CN` in provider `faker.providers.ssn`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `zh_CN`.
-Sun, 25 Apr 2021 18:03:48 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
-Sun, 25 Apr 2021 18:03:48 test_work_wechat.py[line:33] INFO 测试添加成员张建国开始
-Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sun, 25 Apr 2021 18:03:48 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
-Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
-Sun, 25 Apr 2021 18:03:48 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 500 1053
-Sun, 25 Apr 2021 18:03:48 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:49 test_work_wechat.py[line:44] INFO 测试删除成员王敏开始
-Sun, 25 Apr 2021 18:03:49 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sun, 25 Apr 2021 18:03:52 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
-Sun, 25 Apr 2021 18:03:52 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:52 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
-Sun, 25 Apr 2021 18:03:53 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 500 1053
-Sun, 25 Apr 2021 18:03:53 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:53 test_work_wechat.py[line:44] INFO 测试删除成员马磊开始
-Sun, 25 Apr 2021 18:03:53 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element {"using": "xpath", "value": "//*[starts-with(@text,\"\u901a\u8baf\u5f55\")]"}
-Sun, 25 Apr 2021 18:03:53 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/element HTTP/1.1" 500 605
-Sun, 25 Apr 2021 18:03:53 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:54 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close {}
-Sun, 25 Apr 2021 18:03:54 connectionpool.py[line:452] DEBUG http://127.0.0.1:4723 "POST /wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297/appium/app/close HTTP/1.1" 500 1053
-Sun, 25 Apr 2021 18:03:54 remote_connection.py[line:440] DEBUG Finished Request
-Sun, 25 Apr 2021 18:03:54 remote_connection.py[line:388] DEBUG DELETE http://127.0.0.1:4723/wd/hub/session/fb359675-86de-4208-9c9d-bcbfce5b6297 {}
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.address`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.address` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.automotive`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.automotive` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.bank`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:101] DEBUG Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.barcode`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.barcode` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.color`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.color` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.company`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.company` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.credit_card`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.credit_card` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.currency`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.currency` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.date_time`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.date_time` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:113] DEBUG Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.geo`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.geo` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.internet`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.internet` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:113] DEBUG Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.job`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.job` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.lorem`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.lorem` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.misc`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.misc` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.person`.
+Sun, 25 Apr 2021 18:04:39 factory.py[line:106] DEBUG Provider `faker.providers.person` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:40 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.phone_number`.
+Sun, 25 Apr 2021 18:04:40 factory.py[line:106] DEBUG Provider `faker.providers.phone_number` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:40 factory.py[line:113] DEBUG Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:04:40 factory.py[line:113] DEBUG Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:04:40 factory.py[line:94] DEBUG Looking for locale `en_US` in provider `faker.providers.ssn`.
+Sun, 25 Apr 2021 18:04:40 factory.py[line:106] DEBUG Provider `faker.providers.ssn` has been localized to `en_US`.
+Sun, 25 Apr 2021 18:04:40 factory.py[line:113] DEBUG Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+Sun, 25 Apr 2021 18:04:40 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "android", "appium:deviceName": "1", "appium:appPackage": "com.tencent.wework", "appium:appActivity": "com.tencent.wework.launch.LaunchSplashActivity", "appium:noReset": true, "appium:settings[waitForIdleTimeout]": 0, "appium:skipDeviceInitialization": true, "appium:dontStopAppOnReset": true}]}, "desiredCapabilities": {"platformName": "android", "deviceName": "1", "appPackage": "com.tencent.wework", "appActivity": "com.tencent.wework.launch.LaunchSplashActivity", "noReset": true, "settings[waitForIdleTimeout]": 0, "skipDeviceInitialization": true, "dontStopAppOnReset": true}}
+Sun, 25 Apr 2021 18:04:40 connectionpool.py[line:227] DEBUG Starting new HTTP connection (1): 127.0.0.1:4723
