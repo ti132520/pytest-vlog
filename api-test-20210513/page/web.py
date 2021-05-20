@@ -16,19 +16,22 @@ browser = 'chrome'
 
 class Web(BasePage):
     def __init__(self, driver: webdriver = None):
-        if not driver:
-            browser = os.getenv("browser").lower()
-            if browser == 'headless':
-                self.driver = webdriver.PhantomJS()
-            elif browser == 'firefox':
-                self.driver = webdriver.Firefox()
-            else:
-                self.driver = webdriver.Chrome()
-        else:
-            self.driver = driver
-        self.driver.implicitly_wait(5)
+        self.driver = driver
+
+
 
     def start(self):
+
+        browser = os.getenv("browser").lower()
+        if browser == 'headless':
+            self.driver = webdriver.PhantomJS()
+        elif browser == 'firefox':
+            self.driver = webdriver.Firefox()
+        else:
+            self.driver = webdriver.Chrome()
+
+
+        self.driver.implicitly_wait(5)
         self.driver.get(url)
 
     def goto_main(self):

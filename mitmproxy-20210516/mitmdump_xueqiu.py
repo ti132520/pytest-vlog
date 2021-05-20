@@ -13,7 +13,7 @@ class Events:
     def response(self, flow: mitmproxy.http.HTTPFlow):
         if "https://stock.xueqiu.com/v5/stock/batch/quote.json?_t" in flow.request.url and "x=" in flow.request.url:
             data = flow.response.text
-            data = recursion(json.loads(data), 2)
+            data = recursion(json.loads(data), 0)
             flow.response.text = json.dumps(data)
             # flow.response = http.HTTPResponse.make(
             #     200,
