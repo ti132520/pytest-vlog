@@ -9,6 +9,7 @@ import requests
 
 
 class WeWork:
+    __key_data = []
     __corpsecret = "1GJ2IguAh0qpbDn2Occs45mB3jqsDNCRMQ14A5Xhaf8"
     __corpid = "ww0974c3188ad52760"
     __url = "https://qyapi.weixin.qq.com/cgi-bin/"
@@ -41,13 +42,39 @@ class WeWork:
         )
         return res
 
-    def add(self, add_data, tag_name):
+    def get_key_data(self, data, key):
+
+        if isinstance(data, dict):
+            for k, v in data.items():
+                if k == key and isinstance(v, str):
+                    self.__key_data.append(v)
+                if isinstance(v, list):
+                    self.get_key_data(v, key)
+
+        if isinstance(data, list):
+            for li in data:
+                self.get_key_data(li, key)
+
+    def data_clear(self):
+        tag_list_res = self.tag_list().json()
+        self.__key_data = []
+        self.get_key_data(tag_list_res, 'id')
+        if self.__key_data:
+            del_tag_data = {"tag_id": self.__key_data}
+            return self.delete(del_tag_data)
+        else:
+            return True
+
+    def add(self, add_data, tag_name, is_clear=None):
         """
         添加客户联系标签
+        :param is_clear: 是否数据清理
         :param add_data: 添加标签的数据
         :param tag_name: 添加的标签的名字的集合
         :return:
         """
+        if is_clear:
+            self.data_clear()
         res = requests.post(
             self.__url + "externalcontact/add_corp_tag",
             params={"access_token": self.__access_token},
@@ -62,7 +89,19 @@ class WeWork:
         else:
             raise Exception("接口返回添加失败")
 
-    def delete(self, tag_id, tag_id_list):
+    def delete(self, del_tag_data):
+        del_data = {
+            'tag_id': [],
+            'group_id': []
+        }
+        del_list = []
+        for k, v in del_tag_data.items():
+            for val in v:
+                del_list.append(val)
+                if k == 'tag_id':
+                    del_data['tag_id'].append(val)
+                if k == 'group_id':
+                    del_data['group_id'].append(val)
         """
         删除客户联系标签
         :param tag_id: 删除标签的id
@@ -72,11 +111,11 @@ class WeWork:
         res = requests.post(
             self.__url + 'externalcontact/del_corp_tag',
             params={"access_token": self.__access_token},
-            json=json.loads(json.dumps(tag_id))
+            json=json.loads(json.dumps(del_data))
         )
         tag_list = self.tag_list().json()
         if res.json()['errcode'] == 0:
-            for tag in tag_id_list:
+            for tag in del_list:
                 if tag in json.dumps(tag_list, ensure_ascii=False):
                     raise Exception(f"删除{tag}失败")
             return True

@@ -20,7 +20,7 @@ class TestTag:
         assert res['errcode'] == 0
 
     @pytest.mark.parametrize('add_tag_data', yaml.safe_load(open('yaml_data/add_data.yaml', 'r')))
-    def tes1t_tag_add(self, add_tag_data):
+    def test_tag_add(self, add_tag_data):
 
         add_data = {}
         tag_name = []
@@ -32,24 +32,13 @@ class TestTag:
                     {"name": val}
                 )
 
-        res = self.we_work.add(add_data, tag_name)
+        res = self.we_work.add(add_data, tag_name, 1)
         assert res
 
     @pytest.mark.parametrize('del_tag_data', yaml.safe_load(open('yaml_data/del_data.yaml', 'r')))
-    def tes1t_tag_del(self, del_tag_data):
-        del_data = {
-            'tag_id': [],
-            'group_id': []
-        }
-        del_list = []
-        for k, v in del_tag_data.items():
-            for val in v:
-                del_list.append(val)
-                if k == 'tag_id':
-                    del_data['tag_id'].append(val)
-                if k == 'group_id':
-                    del_data['group_id'].append(val)
-        res = self.we_work.delete(del_data, del_list)
+    def test_tag_del(self, del_tag_data):
+
+        res = self.we_work.delete(del_tag_data)
         assert res
 
     @pytest.mark.parametrize('edit_data', yaml.safe_load(open('yaml_data/edit_data.yaml', 'r')))
