@@ -36,7 +36,7 @@ class TestTag:
         assert res
 
     @pytest.mark.parametrize('del_tag_data', yaml.safe_load(open('yaml_data/del_data.yaml', 'r')))
-    def test_tag_del(self, del_tag_data):
+    def tes1t_tag_del(self, del_tag_data):
         del_data = {
             'tag_id': [],
             'group_id': []
@@ -51,3 +51,14 @@ class TestTag:
                     del_data['group_id'].append(val)
         res = self.we_work.delete(del_data, del_list)
         assert res
+
+    @pytest.mark.parametrize('edit_data', yaml.safe_load(open('yaml_data/edit_data.yaml', 'r')))
+    def test_tag_edit(self, edit_data):
+
+        data = {
+            "id": edit_data[0],
+            "name": edit_data[1],
+            "order": edit_data[2]
+        }
+        assert self.we_work.edit(data)
+
