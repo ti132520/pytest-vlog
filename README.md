@@ -25,5 +25,5 @@
 
 
 
-#### *项目所有pip 依赖包都在 pip_install_list.txt 中，使用命令 pip install -r pip_install_list.txt 即可快速安装
+#### *项目所有pip 依赖包都在 pip_install_list.txt 中，使用命令 pip install -r pip_install_list.txt 即可快速安装 
 
