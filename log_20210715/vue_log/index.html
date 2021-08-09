@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- 页面的元素 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+      <!-- 页面 -->
+    <div id="app">
+        <input v-model="message">
+        <!-- v-if 内需要写表达式 -->
+        <span v-if="message==='a'">芒果</span>
+        <span v-else>苹果</span>
+        <!-- 如果不满足判断条件的情况下， v-show 是把元素隐藏，v-if是直接不加载这个元素 -->
+        <span v-show="message==='b'">香蕉</span>
+        <div v-for="item in data">{{item}}</div>
+        <!-- v-bind 是用作绑定属性使用，v-model用作绑定数据-->
+        <a v-bind:href="baidu">点击链接</a>
+      <!-- vue的模板语法， 渲染 data里面的数据 -->
+      {{message}}
+    </div>
+  </body>
+</html>
+<!-- js代码 数据相关的处理-->
+<script>
+    // 实例化了一个vue对象
+  var vm = new Vue({
+    el: "#app",
+    data: {
+      message: "",
+      data: [1,2,3,4],
+      baidu: "https://baidu.com"
+
+    },
+    methods: {
+    },
+  });
+</script>
+<!-- Vue组件基本结构 -->
+<template>
+</template>
+<script>
+export default {};
+</script>
+<!-- 样式表 ， UI的展示，颜色布局等-->
+<style scoped>
+</style>
