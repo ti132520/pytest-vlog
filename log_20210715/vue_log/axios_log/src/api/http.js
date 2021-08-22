@@ -7,7 +7,7 @@ var instance = axios.create({
         'csrfmiddlewaretoken': token,
         'X-CSRFToken': token
     },
-    baseURL: 'http://127.0.0.1:8000',
+    baseURL: 'http://vue-saas.ti132520.fun',
 })
 
 export default instance

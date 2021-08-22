@@ -8,3 +8,4 @@ venv
 /__pycache__
 res-allure
 allure-report
+env

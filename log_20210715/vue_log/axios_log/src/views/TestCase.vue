@@ -280,6 +280,21 @@ export default {
     },
     // 执行用例
     executeCase() {
+      if (this.selected.length) {
+        this.$api.task.add_task(this.selected).then((res) => {
+          if (res.data.code === 0) {
+            this.initialize()
+            this.$toast(res.data.msg, 2)
+          } else {
+            this.$toast(res.data.msg, 4)
+          }
+        }).catch((err) => {
+          this.$toast(err, 4)
+        })
+      } else {
+        this.$toast('没有选择用例', 4)
+      }
+
       console.log(this.selected);
     }
   },

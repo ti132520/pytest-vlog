@@ -9,6 +9,7 @@ const task = {
         })
     },
     add_task(data) {
+        console.log(data);
         return axios({
             method: 'post',
             url: '/task',
