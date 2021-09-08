@@ -35,7 +35,6 @@ class Calendar(FeiShuApi):
                 'page_size': page_size
             }
         )
-        print(res)
         calendar_list: list[Calendar] = []
         if res['code'] == 0:
             for data in res['data']['calendar_list']:

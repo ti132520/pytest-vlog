@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+title: 飞书日历测试流程图
+participant  飞书首页 as Index
+participant  日历页面 as Calendar
+participant  添加日历 as AddCalendar
+participant  新建日历 as CreateCalendar
+participant  添加日程 as AddEvents
+autonumber
+Index -> Calendar: 复用cookies完成登录
+Calendar -> AddCalendar: 点击加号
+AddCalendar -> CreateCalendar: 点击新建日历
+CreateCalendar -> CreateCalendar: 填写日历信息（使用faker生成数据）
+CreateCalendar -> Calendar: 添加完成
+Calendar -> AddEvents: 点击任意时间跳出添加日程页面
+AddEvents -> AddEvents: 填写日程信息（使用faker生成数据）
+@enduml
