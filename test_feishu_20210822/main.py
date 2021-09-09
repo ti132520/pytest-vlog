@@ -26,7 +26,7 @@ def main():
 
 
 def save_cookies():
-    driver = webdriver.Chrome('./chromedriver.exe')
+    driver = webdriver.Chrome('./chromedriver')
     driver.get('https://test-cdpteatl9zu1.feishu.cn/admin/index')
     input('登录完成后输入任意字符保存cookies: ')
     cookies = driver.get_cookies()
