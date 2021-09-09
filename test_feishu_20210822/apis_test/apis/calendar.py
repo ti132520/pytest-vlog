@@ -1,14 +1,17 @@
 from __future__ import annotations
-
-from apis_test.apis.events import Events
+import logging
 from apis_test.apis.fei_shu_api import FeiShuApi
+
+log = logging.getLogger()
 
 
 class Calendar(FeiShuApi):
     __CALENDAR_URL = 'https://open.feishu.cn/open-apis/calendar/v4/calendars/'
+    __CALENDAR_SEARCH_URL = 'https://open.feishu.cn/open-apis/calendar/v4/calendars/search'
 
-    def __init__(self, **kwargs):
-        super().__init__()
+    def __init__(self, token, **kwargs):
+        self.token = token
+        super().__init__(token)
         self.calendar_id = kwargs.get('calendar_id')
         self.color = kwargs.get('color')
         self.description = kwargs.get('description')
@@ -18,27 +21,77 @@ class Calendar(FeiShuApi):
         self.summary_alias = kwargs.get('summary_alias')
         self.type = kwargs.get('type')
 
-    def create(self, summary, **kwargs):
-        kwargs['summary'] = summary
+    def create(self, json):
         res = self.request(
             'post',
             self.__CALENDAR_URL,
-            json=kwargs
+            json=json
         )
         return res
 
-    def get(self, page_size: int = 50) -> list[Calendar]:
+    def update(self, calendar_id, json):
+        res = self.request(
+            'patch',
+            self.__CALENDAR_URL + calendar_id,
+            json=json
+        )
+        return res
+
+    def get_all_res(self, page_size: int = 50, page_token: str = None, sync_token: str = None):
+        """
+        获取所有日历 接口返回直接返回
+        :param page_token: 上一页token
+        :param sync_token: 下一页token
+        :param page_size: 分片大小
+        :return: 日历的list
+        ->是返回值的注释
+        """
+        params = {'page_size': page_size}
+        if page_token: params['page_token'] = page_token
+        if sync_token: params['sync_token'] = sync_token
+
         res = self.request(
             'get',
             self.__CALENDAR_URL,
-            params={
-                'page_size': page_size
-            }
+            params=params
+        )
+        return res
+
+    def search(self, query: str = '', page_size: int = 50, page_token: str = None):
+        params = {'page_size': page_size}
+        if page_token:
+            params['page_token'] = page_token
+        res = self.request('post', self.__CALENDAR_SEARCH_URL, json={'query': query}, params=params)
+        return res
+
+    def get_calendar_for_id(self, calendar_id):
+        return self.request(
+            'get',
+            self.__CALENDAR_URL + calendar_id
+        )
+
+    def get_all_list(self, page_size: int = 50, page_token: str = None, sync_token: str = None) -> list[Calendar]:
+        """
+        获取所有日历的列表
+        :param sync_token: 上一页token
+        :param page_token: 下一页token
+        :param page_size: 分片大小
+        :return: 日历的list
+        ->是返回值的注释
+        """
+        params = {'page_size': page_size}
+        if page_token: params['page_token'] = page_token
+        if sync_token: params['sync_token'] = sync_token
+        res = self.request(
+            'get',
+            self.__CALENDAR_URL,
+            params=params
         )
         calendar_list: list[Calendar] = []
         if res['code'] == 0:
             for data in res['data']['calendar_list']:
-                calendar_list.append(Calendar(**data))
+                calendar_list.append(Calendar(self.token, **data))
+
         return calendar_list
 
     def delete(self, calendar_id=None):
@@ -48,15 +101,10 @@ class Calendar(FeiShuApi):
         return res
 
     def delete_all(self):
-        for item in self.get():
-            if item.type != 'primary':
+        """
+        删除所有（保留49条）
+        :return: null
+        """
+        for item, key in self.get_all_list():
+            if key > 48 and item.type != 'primary':
                 item.delete()
-
-    def get_events(self, calendar_list):
-        events_list = []
-        for item in calendar_list:
-            calendar_id = item.calendar_id
-            events_list_res = Events(calendar_id=calendar_id).get()
-            if events_list_res:
-                events_list.append(events_list_res)
-        return events_list

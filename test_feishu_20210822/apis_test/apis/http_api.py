@@ -1,10 +1,12 @@
+import json
+import logging
 import requests
 
 
-class BaseApi:
-    ACCESS_TOKEN: str = None
+class HttpApi:
 
-    def request(self, method, url, **kwargs):
+    @staticmethod
+    def http_request(method, url, **kwargs):
         """Constructs and sends a :class:`Request <Request>`.
 
         :param method: method for the new :class:`Request` object: ``GET``, ``OPTIONS``, ``HEAD``, ``POST``, ``PUT``, ``PATCH``, or ``DELETE``.
@@ -34,8 +36,8 @@ class BaseApi:
                 to a CA bundle to use. Defaults to ``True``.
         :param stream: (optional) if ``False``, the response content will be immediately downloaded.
         :param cert: (optional) if String, path to ssl client cert file (.pem). If Tuple, ('cert', 'key') pair.
-        :return: :class:`Response <Response>` object
-        :rtype: requests.Response
+        :return: :dict
+        :rtype: dict
 
         Usage::
 
@@ -44,13 +46,18 @@ class BaseApi:
           >>> req
           <Response [200]>
         """
-        kwargs['headers'] = {'Content-Type': 'application/json; charset=utf-8'}
-        if self.ACCESS_TOKEN:
-            kwargs['headers']['Authorization'] = f'Bearer {self.ACCESS_TOKEN}'
-
+        log = logging.getLogger(__name__)
         r = requests.request(
             method,
             url,
             **kwargs
         )
+        log.info(url)
+        log.error(f'请求错误：url:{url} method: {method} \n 请求信息：{json.dumps(kwargs)} \n 返回信息：{r.json()} ')
+        # 最基础抛错，只有正常200的响应给到后续流程
+        # todo:验证这样做的逻辑是否正确有效
+        if not r.status_code == 200:
+            log.error(f'请求错误：url:{url} method: {method} \n 请求信息：{json.dumps(kwargs)} \n 返回信息：{r.json()} ')
+            raise RuntimeError(f'code:{r.json()["code"]} 错误信息：{r.json()["msg"]}')
+
         return r.json()
