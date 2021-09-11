@@ -1,5 +1,7 @@
 from __future__ import annotations
 import logging
+import random
+
 from apis_test.apis.fei_shu_api import FeiShuApi
 
 log = logging.getLogger()
@@ -69,6 +71,16 @@ class Calendar(FeiShuApi):
             'get',
             self.__CALENDAR_URL + calendar_id
         )
+
+    def get_random_calendar_id(self):
+        """
+        随机获取有一个日历
+        :return:
+        """
+        calendar_list = self.get_all_list()
+        calendar_id = [calendar.calendar_id for calendar in calendar_list]
+        random_num = random.randint(1, len(calendar_id))
+        return calendar_id[random_num]
 
     def get_all_list(self, page_size: int = 50, page_token: str = None, sync_token: str = None) -> list[Calendar]:
         """

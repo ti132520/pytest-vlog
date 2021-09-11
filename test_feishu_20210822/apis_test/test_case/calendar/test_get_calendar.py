@@ -53,10 +53,7 @@ class TestGetCalendar:
 
     @pytest.mark.test_get_calendar_detail
     def test_get_calendar_detail(self):
-        calendar_list = self.calendar.get_all_list()
-        calendar_id = [calendar.calendar_id for calendar in calendar_list]
-        random_num = random.randint(1, len(calendar_id))
-        random_id = calendar_id[random_num]
+        random_id = self.calendar.get_random_calendar_id()
         res = self.calendar.get_calendar_for_id(random_id)
         assert res['data']['calendar_id'] == random_id
         assert len(res['data']) > 1

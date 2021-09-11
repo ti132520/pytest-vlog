@@ -50,10 +50,7 @@ class TestCalendarEdit:
 
     @pytest.mark.test_update_calendar
     def test_update_calendar(self):
-        calendar_list = self.calendar.get_all_list()
-        calendar_id = [calendar.calendar_id for calendar in calendar_list]
-        random_num = random.randint(1, len(calendar_id))
-        random_id = calendar_id[random_num]
+        random_id = self.calendar.get_random_calendar_id()
         update_data = {'summary': faker.name(), 'permissions': random.choice(['public', 'show_only_free_busy', 'private']),
          'color': -1, 'summary_alias': faker.name()}
         res = self.calendar.update(calendar_id=random_id, json=update_data)
@@ -61,10 +58,7 @@ class TestCalendarEdit:
 
     @pytest.mark.test_delete_calendar
     def test_delete_calendar(self):
-        calendar_list = self.calendar.get_all_list()
-        calendar_id = [calendar.calendar_id for calendar in calendar_list]
-        random_num = random.randint(1, len(calendar_id))
-        random_id = calendar_id[random_num]
+        random_id = self.calendar.get_random_calendar_id()
         res = self.calendar.delete(calendar_id=random_id)
         assert res['code'] == 0
 
